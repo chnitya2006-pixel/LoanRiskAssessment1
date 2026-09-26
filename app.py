@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 # Load trained ML model
-model = joblib.load("loan_approval_model.pkl")
+model = joblib.load("loan_risk_model.pkl")
 
 print("Loan Risk Assessment Model Loaded Successfully!")
 print("Model is ready for prediction.")
